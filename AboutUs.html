@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me - Your Stylish Tech Hub</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    h2 {
+      color: #000;
+      font-size: 5vw;
+      margin-bottom: 3%;
+    }
+    p {
+      color: #000;
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 2%;
+    }
+    .container {
+      padding: 5% 2%;
+      max-width: 100%;
+      box-sizing: border-box;
+      margin: 0 auto;
+    }
+    .card {
+      display: flex;
+      flex-direction: row; /* Display text and image side by side */
+      align-items: flex-start;
+      padding: 5%;
+      margin-top: 0;
+      margin-bottom: 5%;
+      background-color: rgba(255, 255, 255, 0.9);
+    }
+    .card-text {
+      flex: 1; /* Allow text to take available width */
+      margin-right: 20px; /* Add spacing between text and image */
+    }
+    .card img {
+      max-width: 100%;
+      max-height: 300px; /* Adjust image height as needed */
+    }
+    @media (max-width: 768px) {
+      h2 {
+        font-size: 8vw;
+      }
+      p {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 3%;
+      }
+      .container {
+        padding: 10% 5%;
+      }
+      .card {
+        padding: 8%;
+        margin-top: 0;
+        margin-bottom: 8%;
+        flex-direction: column; /* Stack text and image on small screens */
+      }
+      .card-text {
+        margin-right: 0; /* Remove spacing for mobile */
+        margin-bottom: 20px; /* Add spacing between text and image for mobile */
+      }
+      .card img {
+        max-height: 200px; /* Adjust image height for mobile */
+      }
+    }
+
+    /* Header styles */
+    header {
+      background: linear-gradient(to right, #005b96, #00b0ff);
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* Button styles */
+    .header-buttons {
+      display: flex;
+      gap: 10px;
+    }
+
+    .header-button {
+      background-color: transparent;
+      border: 2px solid #fff;
+      color: #fff;
+      padding: 8px 16px;
+      font-size: 14px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+
+    .header-button:hover {
+      background-color: #fff;
+      color: #005b96;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="company-name">Adapt</h1>
+    <div class="header-buttons">
+      <button class="header-button" onclick="window.location.href='AdaptOfficial.html'">Home</button>
+    </div>
+  </header>
+  <div class="container">
+    <div class="card">
+      <div class="card-text">
+        <h2>About Us</h2>
+        <p>
+          Hi! We are Adapt.<br> And this is our dream.<br><br>We are building a company to completely bring the magic of AI
+          to help people accomplish everyday tasks with absolute ease.
+	  <br>
+	  <br>
+	  Mail us at: sanctuaryadapt@gmail.com<br>
+	  Call us at: +91-7200280982 (India)
+        </p>
+        
+	<p></p>
+        <h2>About Me (Founder)</h2>
+        <p>
+         Hi! I am Shahjahan Mujeeb. Currently a Information Technology student at Sri Sairam Institute of Technology, Chennai.<br>
+         If you were to ask me what's my biggest strenght it would be my ambition and an ability to learn anything.<br>
+	 I love learning about the tech I use. I believe if you don't understand what works, how can you make others to?<br>
+<br>
+          My Expertise and Domains:<br>
+	  - Deep Learning (Pytorch)<br>
+	  - Data Science (Scihub, Pandas)<br>
+	  - App Development (Flutter)<br>
+	  - Full Stack Development (Django, Javascript, HTML/CSS)
+	  <br><br>
+          Other interests of mine include Public speaking, Acting, Singing, Exploring and Drawing. 
+        </p>
+      </div>
+    </div>
+  </div>
+  <footer>
+    &copy; 2023 Your Stylish Tech Hub. All rights reserved.
+  </footer>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adapt</title>
+  <style>
+
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, #005b96, #00b0ff); /* Adjusted gradient */
+    }
+    header {
+      background: linear-gradient(to right, #005b96, #00b0ff);
+      color: #fff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    h2 {
+      font-size: 3vw; /* Percentage-based font size for h2 headings */
+      margin-bottom: 1%; /* Percentage-based margin */
+    }
+    p {
+      font-size: 150%; /* Base font size for paragraphs */
+      margin-bottom: 2%; /* Spacing between paragraphs */
+    }
+    .container {
+      padding: 5% 2%; /* Percentage-based padding */
+      max-width: 100%; /* Adjust to prevent content from overflowing on smaller screens */
+      box-sizing: border-box; /* Adjust to include padding in max-width calculation */
+      margin: 0 auto; /* Center content horizontally */
+    }
+
+    .card img {
+      max-width: 100%;
+    }
+
+    .card {
+      padding: 5%;
+      margin-top: 5%;
+      background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent background */
+      border-radius: 10px;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+      text-align: left;
+    }
+    .hero {
+      display: flex;
+      align-items: center;
+      padding: 100px 0;
+    }
+    .hero-content {
+      flex: 1;
+      text-align: left;
+      margin-left: 4%;
+    }
+    .hero img {
+      max-width: 100%;
+    }
+    .about {
+      text-align: left;
+    }
+    .products {
+      text-align: left;
+      overflow-x: scroll;
+      white-space: nowrap;
+    }
+    .product-image {
+      display: inline-block;
+      margin-right: 20px;
+    }
+    footer {
+      background-color: #303030;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      margin-top: 40px;
+    }
+    .header-buttons {
+      display: flex;
+      gap: 20px;
+    }
+    .header-button {
+      background-color: #fff;
+      color: #212121;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .header-button:hover {
+      background-color: #f0f0f0;
+    }
+    .company-name {
+      color: #fff;
+      font-size: 32px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1 class="company-name">Adapt</h1>
+    <div class="header-buttons">
+      <button class="header-button" onclick="window.location.href='AboutUs.html'">About Us</button>
+    </div>
+  </header>
+  <div class="container">
+    <div class="card hero">
+      <div class="hero-content">
+        <h2>Welcome to Adapt</h2>
+        <p>The future of Tech first India.</p>
+      </div>
+      <img src="AdaptLogo2.png" alt="Logo">
+    </div>
+    <div class="card about">
+      <h2>Why Adapt?</h2>
+      <p>
+        With Adapt, we want you to experience the sweetest taste of cutting-edge technology such AI and IoT. Our vision of a intelligence powered technology fuels our commitment to redefine the digital landscape. From groundbreaking apps to state-of-the-art devices, we're driven by the belief that technology can revolutionize the human experience and empower a brighter future. We as a company, value trust, integrity and user-centric design. To guide us every step of the way. 
+<br><br><br>
+Join us on this exciting adventure as we shape tomorrow's world with innovation that resonates.
+      </p>
+    </div>
+    <div class="card products" id="products">
+      <h2>Discover Our Products</h2>
+      <div class="product-image">
+        <img src="icon.png" alt="Product 1">
+        <p><b>Gold Bucket</b><br>
+           Ever wanted a super accountant to do your budget<br>
+           and save money that you didn't even know existed while<br>
+           you spend in leisure? With gold bucket.<br><br>
+           Now you can have all of that and more!<br>
+           Soon on Google play store.</p>
+      </div>
+      
+  <footer>
+    2023 Adapt.
+  </footer>
+</body>
+</html>
